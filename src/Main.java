@@ -73,12 +73,7 @@ public class Main {
                     a = ComoSea.nextFloat();
                     System.out.println("Ingrese el segundo numero");
                     b = ComoSea.nextFloat();
-                    if (b == 0) {
-                        System.out.println(a / b);
-                    }
-                    else{
-                        System.out.println("No se puede dividir entre 0");
-                    }
+                    System.out.println(a / b);
                     break;
                 case 5:
                     System.out.println("Saliendo del programa....");
